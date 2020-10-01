@@ -199,54 +199,6 @@ article h4 {
   background-color: #02b8dd;
 }
 
-/* CONTACT */
-
-#contact {
-  padding: 60px 0;
-  text-align: center;
-}
-
-#contact .wrapper {
-  flex-direction: column;
-}
-
-#contact h3 {
-  width: 400px;
-  text-transform: uppercase;
-  margin: 0 auto 20px auto;
-  border-bottom: 1px solid #02b8dd;
-  padding-bottom: 20px;
-}
-form {
-  margin-top: 50px;
-}
-label {
-  font-weight: bold;
-  font-size: 20px;
-  margin-right: 10px;
-  color: #777;
-}
-input[type="text"] {
-  padding: 10px;
-  font-size: 20px;
-  margin-right: 20px;
-  border: 2px solid #ddd;
-  border-radius: 3px;
-}
-.button-3 {
-  color: #fff;
-  font-size: 20px;
-  font-weight: bold;
-  padding: 11px;
-  background-color: #02b8bd;
-  border-style: none;
-  border-radius: 3px;
-}
-.button-3:hover {
-  color: #fff;
-  background-color: #444;
-}
-
 /* FOOTER */
 
 footer {
@@ -282,7 +234,7 @@ footer h1 {
 }
 
 #possibilities-destination h3 {
-  width: 400px;
+  width: 250px;
   border-bottom: #02b8dd solid 1px;
   padding-bottom: 20px;
   margin: 0 auto 20px auto;
@@ -342,7 +294,7 @@ footer h1 {
 }
 
 #possibilities-destination .article-destination {
-  margin-top: 50px;
+  margin: 50px 0;
   display: flex;
   justify-content: center;
 }
@@ -359,4 +311,81 @@ footer h1 {
   font-size: 30px;
   color: #02b8dd;
   margin: 15px 35px 10px;
+}
+
+/* PAGE CONTACT */
+
+/* CONTACT */
+
+#contact {
+  padding: 60px 0;
+  text-align: center;
+}
+
+#contact .wrapper {
+  flex-direction: column;
+}
+
+#contact h3 {
+  width: 400px;
+  text-transform: uppercase;
+  margin: 0 auto 20px auto;
+  border-bottom: 1px solid #02b8dd;
+  padding-bottom: 20px;
+}
+form {
+  margin-left: 25px;
+}
+label {
+  font-weight: bold;
+  font-size: 20px;
+  color: #777;
+}
+input[type="text"],
+textarea {
+  padding: 10px;
+  font-size: 20px;
+  border: 2px solid #ddd;
+  border-radius: 3px;
+  width: 100%;
+}
+
+textarea {
+  width: 426px;
+  height: 159px;
+  font-family: Arial, sans-serif;
+}
+.button-3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 11px;
+  background-color: #02b8bd;
+  border-style: none;
+  border-radius: 3px;
+  width: 100%;
+}
+#nom-email {
+  width: 450px;
+  display: flex;
+}
+#message {
+  margin: 10px 0;
+}
+
+#message input[type="text"] {
+  width: 100%;
+}
+.button-3:hover {
+  color: #fff;
+  background-color: #444;
+}
+
+#map-contact {
+  display: flex;
+  margin: 50px auto;
+}
+
+#name {
+  margin-right: 20px;
 }
