@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link href="styles.css" rel="stylesheet" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Crete+Round"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/c143069258.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Travel Agency</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="wrapper">
+        <h1>Travel Agency<span class="orange">.</span></h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="destination.html">Destination</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="signin.html">Mon compte</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="main-image">
+      <div class="wrapper">
+        <h2>Bensoin d'infos ?<br /><strong>On est là si besoin</strong></h2>
+        <a href="#contact" class="button-1">Par ici</a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrapper">
+        <h3>Contactez-nous</h3>
+        <p>
+          Chez Travel Agency nous savons que voyager est une aventure humaine
+          mais également un engagement financier important. C'est pourquoi nous
+          mettons un point d'honneur à prendre en compte chacune de vos attentes
+          pour vous aider dans la préparation de votre voyage.
+        </p>
+        <div id="map-contact">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2629.7495882227977!2d2.403845629377699!3d48.76757817810426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1601556148287!5m2!1sfr!2sfr"
+            width="400"
+            height="300"
+            frameborder="0"
+            style="border: 0"
+            allowfullscreen=""
+            aria-hidden="false"
+            tabindex="0"
+          ></iframe>
+
+          <div id="formulaire">
+            <form>
+              <div id="nom-email">
+                <label for="name"></label>
+                <input type="text" id="name" placeholder="Votre nom" />
+                <label for="email"></label>
+                <input type="text" id="email" placeholder="Votre email" />
+              </div>
+              <div id="message">
+                <label for="text"></label>
+                <textarea
+                  name="usermessage"
+                  placeholder="Votre message"
+                ></textarea>
+              </div>
+              <input type="submit" value="OK" class="button-3" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="possibilities">
+      <div class="wrapper">
+        <article id="article-1">
+          <div class="overlay">
+            <h4>Partez en famille</h4>
+            <p>
+              <small
+                >Offrez le meilleur à ceux que vous aimez et partagez des
+                moments fabuleux !</small
+              >
+            </p>
+            <a href="#" class="button-2">Plus d'infos</a>
+          </div>
+        </article>
+        <article id="article-2">
+          <div class="overlay">
+            <h4>Envie de s'évader</h4>
+            <p>
+              <small
+                >Parfois un peu d'évasion, serait la bienvenue et ferait le plus
+                grand bien !</small
+              >
+            </p>
+            <a href="#" class="button-2">Plus d'infos</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <footer>
+      <div class="wrapper">
+        <h1>Travel Agency<span class="orange">.</span></h1>
+        <div class="copyright">Copyright © Tous droits réservés.</div>
+      </div>
+    </footer>
+  </body>
+</html>
