@@ -342,7 +342,8 @@ label {
   color: #777;
 }
 input[type="text"],
-textarea {
+textarea,
+#pass {
   padding: 10px;
   font-size: 20px;
   border: 2px solid #ddd;
@@ -388,4 +389,54 @@ textarea {
 
 #name {
   margin-right: 20px;
+}
+
+/* PAGE CONNEXION */
+
+/* CONNEXION */
+
+#connexion {
+  text-align: center;
+  margin-top: 50px;
+}
+#connexion .wrapper {
+  flex-direction: column;
+}
+
+#connexion #nom-email {
+  flex-direction: column;
+  width: 450px;
+}
+
+#connexion #formulaire {
+  display: flex;
+  justify-content: center;
+  margin: 25px 0;
+}
+
+#connexion #email,
+#pass {
+  width: 426px;
+}
+
+#connexion #pass {
+  margin: 10px 0;
+}
+
+#connexion h3 {
+  margin-bottom: 5px;
+}
+
+#connexion i {
+  margin: 20px;
+}
+
+#se-connecter {
+  border-bottom: 1px solid #02b8dd;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+#connexion #inscription {
+  margin-bottom: 35px;
 }
